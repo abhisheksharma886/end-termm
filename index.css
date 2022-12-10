@@ -650,30 +650,30 @@ body {
     margin-left: 12px;
   }
   .job-overview-buttons .job-day {
-    color: var(--subtitle-color);
-    font-size: 12px;
-    margin-left: 8px;
-    font-weight: 500;
-  }
-  .job-overview .overview-wrapper {
-    display: flex;
-    align-items: center;
-  }
-  .job-overview .overview-wrapper svg:first-child {
-    width: 42px;
-    margin-right: 10px;
-  }
-  .job-overview .overview-wrapper .heart {
-    background: none;
-    box-shadow: none;
-    width: 24px;
-    padding: 4px;
-    color: var(--subtitle-color);
-    border: 1px solid var(--border-color);
-    margin-left: auto;
-    margin-bottom: auto;
-  }
-  
+  color: var(--subtitle-color);
+  font-size: 12px;
+  margin-left: 8px;
+  font-weight: 500;
+}
+.job-overview .overview-wrapper {
+  display: flex;
+  align-items: center;
+}
+.job-overview .overview-wrapper svg:first-child {
+  width: 42px;
+  margin-right: 10px;
+}
+.job-overview .overview-wrapper .heart {
+  background: none;
+  box-shadow: none;
+  width: 24px;
+  padding: 4px;
+  color: var(--subtitle-color);
+  border: 1px solid var(--border-color);
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
   .job-explain-content {
     padding: 50px 25px 30px;
   }
